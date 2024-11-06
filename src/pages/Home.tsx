@@ -58,7 +58,7 @@ const Home = () => {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <a 
-                href="tel:+919131771382"
+                href="tel:+919425331547"
                 className="group inline-flex items-center justify-center px-8 py-4 bg-white/10 text-white rounded-xl hover:bg-white/20 transition-all duration-300 backdrop-blur-sm border border-white/10"
               >
                 <Phone className="mr-2 h-5 w-5" />
