@@ -16,18 +16,21 @@ const ContactForm = () => {
 
   const onSubmit = async (data: FormData) => {
     try {
-      const response = await fetch('https://script.google.com/macros/s/AKfycbzGnjuBImuEcVL5qv6AXybJ65kkKDx0C1zjSgtjQSVvYgX08Qy66wkYDfNU8syz1oiARw/exec', {
+      const response = await fetch('https://script.google.com/macros/s/AKfycbzGzSVvKo-fbCfq9H-Z83eyxDu21hl65_fMzKaFmeJxSR6EtQQQ7dFpn4xYD22J76Of/exec', {
         method: 'POST',
+        // Uncomment the headers line if removing headers does not solve the issue
+        // headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
       });
-
+  
       if (response.ok) {
-        toast.success('Thank you for your message! We\'ll get back to you soon.');
+        toast.success("Thank you for your message! We'll get back to you soon.");
         reset();
       } else {
         throw new Error('Failed to submit form');
       }
     } catch (error) {
+      console.error("Submission error:", error);
       toast.error('Something went wrong. Please try again later.');
     }
   };
