@@ -16,7 +16,7 @@ const ContactForm = () => {
 
   const onSubmit = async (data: FormData) => {
     try {
-      const response = await fetch('https://script.google.com/macros/s/YOUR_GOOGLE_SCRIPT_ID/exec', {
+      const response = await fetch('https://script.google.com/macros/s/AKfycbzGnjuBImuEcVL5qv6AXybJ65kkKDx0C1zjSgtjQSVvYgX08Qy66wkYDfNU8syz1oiARw/exec', {
         method: 'POST',
         body: JSON.stringify(data),
       });
