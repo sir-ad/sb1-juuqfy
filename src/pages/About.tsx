@@ -69,13 +69,13 @@ const About = () => {
               name="Surendra Kumar Gupta"
               position="Founder & Managing Director"
               description="With over three decades of experience in business technology, Surendra Kumar Gupta has been instrumental in bringing digital transformation to countless businesses across Central India."
-              imageUrl="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80"
+              imageUrl="https://i.postimg.cc/Gp9w4q86/20240514-225516.jpg"
             />
             <LeadershipCard
               name="Adarsh Agrahari"
               position="Director of Operations"
               description="A technology enthusiast and business strategist, Adarsh has been pivotal in modernizing HCS's service delivery and expanding its regional presence."
-              imageUrl="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80"
+              imageUrl="https://i.ibb.co/3400SkB/croped-passport-size.png"
             />
           </div>
         </div>
